@@ -1,5 +1,5 @@
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
-    WiFiBit.connectToWiFiNetwork("Garretts", "Draco4ever!")
+    WiFiBit.connectToWiFiNetwork("SSID", "Passkey")
 })
 //This module is for connecting to WiFi
 IR.IR_callbackUser(function () {
